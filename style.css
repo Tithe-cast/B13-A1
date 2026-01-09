@@ -207,7 +207,7 @@ justify-content: center;
    line-height: 20px;
    }
    #brain{
-    margin:120px 120px 0 120px ;
+    margin:120px 120px 120px 120px ;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -250,3 +250,37 @@ justify-content: center;
     gap:2px;
     align-items: center;
 }
+#ready {
+    width: ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+#ready{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+#ready .ready-container{
+    height: 384px;
+    margin: 0 auto;
+    padding: 120px;
+    background-color: #F7F6F2;
+    text-align: center;
+    gap: 24px; 
+}
+#ready .ready-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 16px;
+
+}
+#ready .ready-container p{
+   padding-bottom: 24px;
+   padding-top: 24px;
+   font-size: 16px;
+   font-weight: 400;
+   color:#627382 ; 
+}
+
