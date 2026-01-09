@@ -43,8 +43,8 @@
 
 }
 nav{
-    width:71%;
-    max-width 364px;
+    width:1600;
+    max-width 1600px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -72,6 +72,7 @@ nav .menu a {
 
 }
 .banner{
+    width: 1600px;
     position: relative;
     height: 674px;
     background: url("./assets/hero-bg.png") center/cover no-repeat;
