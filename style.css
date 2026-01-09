@@ -21,16 +21,18 @@
     cursor: pointer;
 }
 .section-heading{
-    max-width: 827px;
+    max-width: 1360px;
     text-align: center;
 
 }
 .section-heading h2{
+    margin: 120px;
     font-size:48px ;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 30px;
     margin-left: 1px;
+    text-align: center;
 }
 .section-heading p{
     font-size:16px ;
@@ -154,41 +156,44 @@ nav .menu a {
 
 
 #features .features-container{
-    width: 71%;
-    max-width:1140px ;
+    width: 1360px;
+    max-width:1360px ;
     margin: 0 auto;
     
 }
 #features .features-container .features-box{
     display: flex;
-    gap: 24px;
-    
-   
+    padding: 24px;
+    gap: 16px;
+    border-radius: 8px;
 }
 .features-box .features-card{
     /*border: 1px solid;*/
-    box-shadow: 0 6px 50px 0 #00000022;
-    padding: 30px;
-    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000018;
+    padding: 24px;
+    max-width: 322px;
+    gap: 16px;
     
 }
-.features-card img{
-    max-width: 44px;
-    margin-bottom: 30px;
-}
+
 .icon-box{
+    
     background-color:#F95555 ;
     width: 60px;
     height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-left: 40px;
+    margin-left: 131px;
+    margin:0 auto 16px;
 }
 .icon-box img {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 16px;
+    width: 30px;
+    height: 30px;
 }
 .features-card h4{
+    width: 274px;
 font-size: 24px;
 font-weight: 600;
 color:#001931 ;
@@ -198,6 +203,6 @@ justify-content: center;
 .features-card p{
     font-size: 16px; 
     font-weight: 400;
-   color: #757575;
-   line-height: 28px;
+   color: #627382;
+   line-height: 20px;
    }
